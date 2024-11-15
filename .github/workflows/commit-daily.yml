@@ -18,8 +18,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "vsvishalsharma"
+          git config --local user.email "vsvishalsharma777@gmail.com"
           git add .
           git commit -m "Daily update $(date)"
           git push
